@@ -1,0 +1,48 @@
+div.cv-badge {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8px 24px;
+  @include text-medium(14px, 16px, var(--white-color));
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    column-gap: 8px;
+    padding: 24px;
+  }
+
+  &--position {
+    align-self: center;
+    background-color: var(--black-color-60);
+    line-height: 20px;
+  }
+
+  &--lenguage {
+    background-color: var(--lenguage-color);
+  }
+
+  &--framework {
+    background-color: var(--framework-color);
+  }
+
+  &--ci {
+    background-color: var(--ci-color);
+  }
+
+  &--database {
+    background-color: var(--database-color);
+  }
+
+  &--utils {
+    background-color: var(--utils-color);
+  }
+
+  &--others {
+    background-color: var(--others-color);
+  }
+}

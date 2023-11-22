@@ -1,0 +1,18 @@
+
+.cv-social {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+
+  &__link {
+    padding: 4px;
+  }
+  
+  &__icon {
+    color: var(--white-color);
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+

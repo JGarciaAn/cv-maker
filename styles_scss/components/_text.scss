@@ -1,0 +1,50 @@
+.cv-text {
+  &--name {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin: 0 auto 12px;
+
+    :first-child {
+      @include text-medium(20px, 24px, var(--white-color));
+      letter-spacing: 0.4px;
+    }
+
+    :last-child {
+      @include text-semibold(22px, 28px, var(--main-color-160));
+      letter-spacing: 0.2px;
+    }
+  }
+}
+
+h2.cv-text {
+  @include text-semibold(26px, 32px, var(--black-color-60));
+}
+
+h3.cv-text {
+  @include text-semibold(16px, 20px, var(--black-color-70))
+}
+
+h4.cv-text {
+  @include text-medium(14px, 18px, var(--black-color-60))
+}
+
+p.cv-text {
+  @include text-regular(14px, 20px, var(--black-color-80));
+  margin-bottom: 16px;
+}
+
+p.cv-text-last {
+  @include text-regular(14px, 20px, var(--black-color-80));
+  margin-bottom: 0;
+}
+
+li.cv-text {
+  @include text-regular(14px, 20px, var(--black-color-90));
+}
+
+span.cv-text {
+  @include text-regular(12px, 14px, var(--black-color-50));
+}
+

@@ -1,0 +1,38 @@
+@mixin text-custom($size, $line-height, $color) {
+  color: $color;
+  font-size: $size;
+  font-weight: unset;
+  letter-spacing: 0.2px;
+  line-height: $line-height;
+  text-rendering: optimizeLegibility;
+}
+
+@mixin text-thin($size, $line-height, $color: var(--black-color)) {
+  @include text-custom($size, $line-height, $color);
+  font-family: "roboto-thin";
+}
+
+@mixin text-light($size, $line-height, $color: var(--black-color)) {
+  @include text-custom($size, $line-height, $color);
+  font-family: "roboto-light";
+}
+
+@mixin text-regular($size, $line-height, $color: var(--black-color)) {
+  @include text-custom($size, $line-height, $color);
+  font-family: "roboto-regular";
+}
+
+@mixin text-medium($size, $line-height, $color: var(--black-color)) {
+  @include text-custom($size, $line-height, $color);
+  font-family: "roboto-medium";
+}
+
+@mixin text-semibold($size, $line-height, $color: var(--black-color)) {
+  @include text-custom($size, $line-height, $color);
+  font-family: "roboto-semibold";
+}
+
+@mixin text-bold($size, $line-height, $color: var(--black-color)) {
+  @include text-custom($size, $line-height, $color);
+  font-family: "roboto-bold";
+}

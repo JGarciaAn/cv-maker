@@ -1,0 +1,178 @@
+{
+  "download_button": "Descargar CV",
+  "personal_data": {
+    "name": "Javier",
+    "surname": "García Antúnez",
+    "years": "30 años",
+    "location": "Madrid, España",
+    "position": "Senior Frontend Developer",
+    "email": "javiergarciantunez@gmail.com",
+    "phone": "+34 680 71 11 35",
+    "social": {
+      "github": "https://github.com/JGarciaAn",
+      "linkedin": "https://www.linkedin.com/in/javier-garc%C3%ADa-ant%C3%BAnez-79008518a"
+    }
+  },
+  "about_me": {
+    "title": "Sobre mi",
+    "information": [
+      "Soy un ingeniero informático apasionado por el desarrollo de productos software y especializado en la parte Frontend. En los diferentes proyectos en los que he participado, he aportado mi conocimiento tanto en la gestión de estos, como en el diseño, desarrollo, despliegue y mantenimiento.",
+      "En mis inicios, desarrollé proyectos propios (en Android nativo y Firebase como BDD). Lo que me permitió obtener una mejor visión de negocio y una mayor experiencia a la hora de desarrollar y reutilizar código, lo cual fue muy útil en mi posterior desarrollo profesional.",
+      "A lo largo de mi trayectoria he programado tanto en tecnologías Backend como Frontend haciendo uso de diferentes frameworks. Pero debo destacar que en mis más de 5 años de experiencia, me he centrado en tecnologías Frontend para desarrollo web, aunque estoy abierto a cambios.",
+      "En mi trabajo actual, desarrollo aplicaciones híbridas con frameworks basados en HTML, Typescript y SASS. También doy soporte a mis compañeros como referente de la parte de Frontend además de aportar soluciones a problemas complejos de desarrollo. Por último, mencionar que trabajo con la metodología Agile, Scrum.",
+      "Por último, parte de mi tiempo libre lo dedico a investigar conceptos relacionados con el desarrollo web. Como por ejemplo diferentes tipos de arquitecturas, patrones de diseño, nuevas tecnologías y DevOps. También me gusta mantenerme informado de las últimas tendecias y actualizaciones ya que trabajamos en un sector en continuo cambio."
+    ]
+  },
+  "experience": {
+    "title": "Experiencia",
+    "data": [
+      {
+        "title": "Senior Frontend Developer, GFT",
+        "date": "Junio 2021 - Actualidad",
+        "information": [
+          "Revisión de código y PRs de compañeros",
+          "Liderazgo de equipos a nivel de Frontend",
+          "Especializado en las últimas versiones de Angular e Ionic, con lo que he podido dar soporte a mis compañeros",
+          "Desarrollo de soluciones de arquitectura a problemas complejos de diferentes PWAs en Ionic y Angular",
+          "Desarrollo y configuración de test unitarios con Jest, Karma y Jasmine; y test e2e con Cypress"
+        ]
+      },
+      {
+        "title": "Software Developer, Vector ITC",
+        "date": "Septiembre 2019 - Junio 2021",
+        "information": [
+          "Desarrollo de librerias y aplicaciones en Angular",
+          "Apoyo técnico al equipo de arquitectura y desarrollo de soluciones de arquitecturas de microfrontends con module-federation e iframes para grandes proyectos",
+          "Seminarios de temática Web internos sobre nuevas tendencias y ciertas funcionalidades de Angular",
+          "Coordinación de equipos Frontend en varios proyectos utilizando Scrum como metodología Agile",
+          "Rápida adaptación al framework React para ayudar en un proyecto crítico desarrollado en esa tecnología"
+        ]
+      },
+      {
+        "title": "Junior Developer, Altran",
+        "date": "Junio 2018 - Septiembre 2019",
+        "information": [
+          "Desarrollo y puesta a punto de diferentes numerosos proyectos",
+          "Coordinación de equipos Frontend en varios proyectos utilizando Scrum como metodología Agile",
+          "Aprendizaje de Angular e Ionic para el desarrollo de PWAs"
+        ]
+      }
+    ]
+  },
+  "studies": {
+    "title": "Estudios",
+    "data": [
+      {
+        "title": "Máster en Informática Móvil (MIMO)",
+        "date": "2019",
+        "location": "Universidad Pontificia de Salamanca"
+      },
+      {
+        "title": "Experto en IOS",
+        "date": "2018",
+        "location": "Universidad Pontificia de Salamanca"
+      },
+      {
+        "title": "Experto",
+        "date": "2018",
+        "location": "Universidad Pontificia de Salamanca"
+      },
+      {
+        "title": "Grado en Ingeniería Informática",
+        "date": "2018",
+        "location": "Universidad de Salamanca"
+      }
+    ]
+  },
+  "knowledges": {
+    "title": "Conocimientos y habilidades técnicas",
+    "languages": [
+      {
+        "title": "Español",
+        "description": "Lengua materna"
+      },
+      {
+        "title": "Inglés",
+        "description": "Nivel medio"
+      }
+    ],
+    "technologies": [
+      {
+        "title": "Javascript",
+        "type": "lenguage"
+      },
+      {
+        "title": "Typescript",
+        "type": "lenguage"
+      },
+      {
+        "title": "HTML",
+        "type": "lenguage"
+      },
+      {
+        "title": "CSS",
+        "type": "lenguage"
+      },
+      {
+        "title": "Sass",
+        "type": "lenguage"
+      },
+      {
+        "title": "Angular",
+        "type": "framework"
+      },
+      {
+        "title": "Ionic",
+        "type": "framework"
+      },
+      {
+        "title": "React",
+        "type": "framework"
+      },
+      {
+        "title": "Vue",
+        "type": "framework"
+      },
+      {
+        "title": "Docker",
+        "type": "ci"
+      },
+      {
+        "title": "AWS",
+        "type": "ci"
+      },
+      {
+        "title": "SQL",
+        "type": "database"
+      },
+      {
+        "title": "MongoDB",
+        "type": "database"
+      },
+      {
+        "title": "Firebase",
+        "type": "database"
+      },
+      {
+        "title": "GIT",
+        "type": "utils"
+      },
+      {
+        "title": "GitFlow",
+        "type": "utils"
+      },
+      {
+        "title": "Scrum",
+        "type": "utils"
+      },
+      {
+        "title": "Jira",
+        "type": "utils"
+      },
+      {
+        "title": "Node",
+        "type": "others"
+      }
+    ]
+  }
+}

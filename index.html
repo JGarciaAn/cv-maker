@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="./" />
+    <title>Javier García Antúnez</title>
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <script
+      src="https://kit.fontawesome.com/69d5a12c87.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./src/index.js"></script>
+  </head>
+  <body>
+    <div class="cv-background"></div>
+    <div class="cv-background__overlay"></div>
+    <main data-content class="cv-content">
+      <div class="cv-card cv-card--profile">
+        <div class="cv-image">
+          <img
+            class="cv-image__img"
+            src="./assets/imgs/CV_image.jpeg"
+            data-image
+          />
+        </div>
+
+        <div class="cv-card__content--gray"></div>
+        <section class="cv-card__content">
+          <div class="cv-text--name mb-4">
+            <h1 data-name></h1>
+            <h1 data-surname></h1>
+          </div>
+
+          <div data-position class="cv-badge cv-badge--position mb-8"></div>
+
+          <div class="cv-social mb-16" data-social></div>
+
+          <span class="separator--dark mb-24"></span>
+
+          <ul class="cv-information">
+            <li class="cv-information__data">
+              <i class="cv-information__icon fa-solid fa-phone"></i>
+              <a data-phone class="cv-information__description"></a>
+            </li>
+
+            <li class="cv-information__data">
+              <i class="cv-information__icon fa-regular fa-envelope"></i>
+              <a data-email class="cv-information__description"></a>
+            </li>
+
+            <li class="cv-information__data">
+              <i class="cv-information__icon fa-regular fa-user"></i>
+              <p data-years class="cv-information__description"></p>
+            </li>
+
+            <li class="cv-information__data">
+              <i class="cv-information__icon fa-solid fa-location-dot"></i>
+              <p data-location class="cv-information__description"></p>
+            </li>
+          </ul>
+
+          <button data-download class="cv-information__button"></button>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
