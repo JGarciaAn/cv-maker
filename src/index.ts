@@ -1,3 +1,6 @@
+import '../styles/styles.scss';
+import '../assets/imgs/CV_image.jpeg';
+
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -141,7 +144,7 @@ function setSocialData(social) {
 }
 
 
-function setData(data, key, fn) {
+function setData(data, key, fn?) {
   const dataElement = document.querySelector(`[data-${key}]`);
   dataElement.textContent = data[key];
 
@@ -174,7 +177,7 @@ function createSection(title) {
 }
 
 
-function createElement(type, classList) {
+function createElement(type, classList?) {
   const element = document.createElement(type);
   if (classList) {
     element.classList.add(...classList?.split(' '));
